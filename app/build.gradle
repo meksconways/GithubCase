@@ -40,7 +40,10 @@ dependencies {
 
     //Dagger 2
     implementation "com.google.dagger:dagger:$daggerVersion"
+    implementation "com.google.dagger:dagger-android-support:$daggerVersion"
     kapt "com.google.dagger:dagger-compiler:$daggerVersion"
+    kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
+
     compileOnly "org.glassfish:javax.annotation:$javaxAnotationVersion"
 
     //CardView and RecyclerView
@@ -53,6 +56,10 @@ dependencies {
 
     //Lifecycle Ext
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycleExtVersion"
+
+    //ViewModel
+    implementation "androidx.legacy:legacy-support-v4:$legacySupportVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$viewModelVersion"
 
     //Retrofit
     implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"

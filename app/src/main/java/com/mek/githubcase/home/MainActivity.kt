@@ -1,7 +1,8 @@
-package com.mek.githubcase
+package com.mek.githubcase.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.mek.githubcase.R
 
 class MainActivity : AppCompatActivity() {
 
