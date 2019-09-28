@@ -5,7 +5,7 @@ import dagger.Module
 import dagger.Provides
 
 @Module
-abstract class ApplicationModule
+class ApplicationModule
 constructor(private var application: GithubApplication){
 
     @Provides

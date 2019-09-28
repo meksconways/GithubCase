@@ -7,6 +7,7 @@ import javax.inject.Singleton
 @Component(modules = [ApplicationModule::class])
 interface ApplicationComponent {
 
+    fun inject(githubApplication: GithubApplication)
 
 
 }
